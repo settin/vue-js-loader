@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>vue-js-loader Demo</title>
+    <meta charset="utf-8">
+    <script>
+        var params = {
+            assetVersion:"1.0.0" //静态资源版本识别号，修改此处版本号，用户本地的模板缓存将失效
+        };//初始化页面时，由后端带入的动态数据
+    </script>
+    <!--/**
+    * 包含了八个部分的代码
+    * 1.base.js 原生JS的基础扩展
+    * 2.jquery1.10.2
+    * 3.vuejs 1.0.22
+    * 4.lesscss 2.5.3
+    * 5.director 1.2.4
+    * 6.hammerjs 2.0.8
+    * 7.vue-touch 1.1.0
+    * 8.vue-js-loader 1.0.4
+    */-->
+    <script src="./js/framework.min.js"></script>
+    <script src="./js/app.js"></script>
+</head>
+
+<body>
+    <router-view></router-view>
+</body>
+</html>
